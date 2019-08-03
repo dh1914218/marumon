@@ -1,12 +1,20 @@
 /* 마루몬추천 시공후기 */
 
-.constructionCase h3 {
+/* .constructionCase h3 {
   font-size: 22px;
   font-weight: 300;
   color: #111111;
 }
-
 .constructionCase h3 span {
+  font-weight: 500;
+} */
+
+.swiper-container h3 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #111111;
+}
+.swiper-container span {
   font-weight: 500;
 }
 
@@ -47,3 +55,5 @@
   color: #ff426e;
   font-weight: 400;
 }
+
+/* 자재보기 */
