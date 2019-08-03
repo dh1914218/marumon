@@ -1,0 +1,38 @@
+.header h3 {
+  float: left;
+  color: #ff0040;
+  padding: 18px 80px 0 0;
+  font-weight: bold;
+  size: 24x;
+  display: inline-block;
+}
+.header a {
+  color: #b3b3b3;
+  size: 16px;
+  font-weight: 400;
+}
+
+.header a:hover {
+  color: #181819;
+  width: 600;
+}
+
+.header .nav_left > div {
+  float: left;
+  display: inline-block;
+  text-align: left;
+  padding: 18px 15px 0 15px;
+}
+
+.header .nav_left > div:first-child {
+  padding-left: 0;
+}
+.header .nav_right > div {
+  float: right;
+  display: inline-block;
+  padding: 18px 0 0 30px;
+}
+.header .nav_right .color > a {
+  color: #ff0040 !important;
+  font-weight: 400;
+}

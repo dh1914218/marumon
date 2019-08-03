@@ -1,0 +1,21 @@
+.cateBox {
+  text-align: center;
+}
+
+.ic-linoleum {
+  width: 88px;
+  height: 114px;
+  background: url(../img/ic_cate.png) -1066px -264px;
+}
+
+.cateBox a {
+  padding: 0 7.5px 0px 7.5px;
+}
+
+.cateBox a:first-child {
+  padding-left: 0;
+}
+
+.cateBox a:last-child {
+  padding-right: 0;
+}

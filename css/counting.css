@@ -1,0 +1,39 @@
+.counting > h3 {
+  text-align: center;
+  color: #181819;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.countingBox {
+  text-align: center;
+  width: 800px;
+  border-bottom: 1px solid #bebebe;
+  margin: 0 auto;
+}
+
+.countingBox > div {
+  display: inline-block;
+  padding: 0 30px 30px 40px;
+  text-align: center;
+}
+
+.countingBox > div > span {
+  color: #181819;
+  font-size: 15px;
+}
+
+.countingBox > div > h4 {
+  margin-top: 10px;
+  color: #181819;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.countingBox > div:first-child > h4 {
+  color: #ff0040;
+}
+
+.countingBox > div:first-child > span {
+  color: #ff0040;
+}
