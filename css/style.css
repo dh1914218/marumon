@@ -37,12 +37,12 @@
   width: 88px;
 }
 
-.ic_linoleum img:hover .ic_linoleumOn {
+/* .ic_linoleum img:hover .ic_linoleumOn {
   display: inline-block;
 }
 .ic_linoleum img:hover .ic_linoleumOff {
   display: none;
-}
+} */
 
 /* <style>
 .imgswap img:last-child{display:none}

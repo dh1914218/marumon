@@ -8,11 +8,15 @@
 .constructionCase h3 span {
   font-weight: 500;
 } */
+.swiper-slide {
+  margin-right: 0;
+}
 
 .swiper-container h3 {
   font-size: 22px;
   font-weight: 300;
   color: #111111;
+  width: 100%;
 }
 .swiper-container span {
   font-weight: 500;
@@ -21,8 +25,8 @@
 .constructionCase_cont {
   display: inline-block;
   border: 1px solid #111111;
-  width: 32%;
-  margin-right: 13px;
+  /* width: 32%;
+  margin-right: 13px; */
   z-index: 10px;
 }
 .constructionCase_cont:last-child {
