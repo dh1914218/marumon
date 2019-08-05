@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.cateBox img {
+  display: inline-block !important;
+}
+
 .ic-linoleum {
   width: 88px;
   height: 114px;

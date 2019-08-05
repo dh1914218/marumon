@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>홈</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/slick.css" />
     <!-- 구글폰트 -->
     <link
       rel="stylesheet"
@@ -175,11 +174,11 @@
         <section>
           <div class="container">
             <div class="swiper-container">
-              <h3>마루몬이 추천하는<span>오늘의 시공후기</span></h3>
-              <div class="constructionCase swiper-wrapper">
-                <div class="constructionCase_cont mt10 clearfix swiper-slide ">
+              <h3>마루몬이 추천하는<span> 오늘의 시공후기</span></h3>
+              <div class="constructionCase clearfix">
+                <div class="constructionCase_cont mt10 clearfix">
                   <div class="img">
-                    <img src="img/constructionCase1.jpg" alt="" />
+                    <img src="img/test1.png" alt="" />
                   </div>
                   <div class="desc">
                     <div class="title">
@@ -192,9 +191,9 @@
                   </div>
                 </div>
                 <!-- 시공후기컨텐츠1 -->
-                <div class="constructionCase_cont mt10 clearfix swiper-slide">
+                <div class="constructionCase_cont mt10 clearfix">
                   <div class="img">
-                    <img src="img/constructionCase1.jpg" alt="" />
+                    <img src="img/test1.png" alt="" />
                   </div>
                   <div class="desc">
                     <div class="title">
@@ -207,9 +206,9 @@
                   </div>
                 </div>
                 <!-- 시공후기컨텐츠2 -->
-                <div class="constructionCase_cont mt10 clearfix swiper-slide">
+                <div class="constructionCase_cont mt10 clearfix">
                   <div class="img">
-                    <img src="img/constructionCase1.jpg" alt="" />
+                    <img src="img/test1.png" alt="" />
                   </div>
                   <div class="desc">
                     <div class="title">
@@ -222,9 +221,9 @@
                   </div>
                 </div>
                 <!-- 시공후기컨텐츠3 -->
-                <div class="constructionCase_cont mt10 clearfix swiper-slide ">
+                <div class="constructionCase_cont mt10 clearfix">
                   <div class="img">
-                    <img src="img/constructionCase1.jpg" alt="" />
+                    <img src="img/test1.png" alt="" />
                   </div>
                   <div class="desc">
                     <div class="title">
@@ -237,9 +236,9 @@
                   </div>
                 </div>
                 <!-- 시공후기컨텐츠4 -->
-                <div class="constructionCase_cont mt10 clearfix swiper-slide">
+                <div class="constructionCase_cont mt10 clearfix">
                   <div class="img">
-                    <img src="img/constructionCase1.jpg" alt="" />
+                    <img src="img/test1.png" alt="" />
                   </div>
                   <div class="desc">
                     <div class="title">
@@ -252,9 +251,9 @@
                   </div>
                 </div>
                 <!-- 시공후기컨텐츠5 -->
-                <div class="constructionCase_cont mt10 clearfix swiper-slide">
+                <div class="constructionCase_cont mt10 clearfix">
                   <div class="img">
-                    <img src="img/constructionCase1.jpg" alt="" />
+                    <img src="img/test1.png" alt="" />
                   </div>
                   <div class="desc">
                     <div class="title">
@@ -273,21 +272,41 @@
         </section>
         <!-- //시공후기 -->
 
-        <section>
-          <div id="material"></div>
+        <section class="mt40 material">
+          <div class="container">
+            <div class="swiper-container2">
+              <h3>시공전<span> 자재구경하기</span></h3>
+              <div class="material_cont swiper-wrapper mt20">
+                <div class="swiper-slide">
+                  <img src="tile/tile1.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="tile/tile2.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="tile/tile3.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="tile/tile4.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="tile/tile5.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="tile/tile6.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <!-- //자재보기 -->
-
-        <!-- 테스트 -->
-        <!-- Slider main container -->
       </main>
       <!-- //메인 -->
     </div>
-    <dd></dd>
   </body>
 </html>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
-<script src="./js/slick.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js"></script>
 <script src="js/swiper.min.js"></script>
@@ -299,33 +318,35 @@
     time: 1000
   });
 
-  // $(".autoplay").slick({
-  //   infinite: true,
-  //   slidesToShow: 3,
-  //   slidesToScroll: 3,
-  //   autoplay: true,
-  //   autoplaySpeed: 3000
-  // });
-
+  // 시공사례 슬라이더
   var swiper = new Swiper(".swiper-container", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true
-    }
-    // autoplay: {
-    //   delay: 1000
-    // }
-  });
+    slidesPerView: 3, // 동시에 보여줄 슬라이드 갯수
+    spaceBetween: 17,
+    loopFillGroupWithBlank: true,
 
-  var swiper = new Swiper(".swiper-container2", {
-    slidesPerView: 3,
-    spaceBetween: 30,
+    loop: true, // 무한 반복
     pagination: {
       el: ".swiper-pagination",
       clickable: true
     },
+
+    autoplay: {
+      delay: 2000
+    }
+  });
+
+  // 자재보기 슬라이더
+  var swiper = new Swiper(".swiper-container2", {
+    slidesPerView: 6, // 동시에 보여줄 슬라이드 갯수
+    spaceBetween: 20,
+    loopFillGroupWithBlank: true,
+
+    loop: true, // 무한 반복
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+
     autoplay: {
       delay: 1000
     }
