@@ -1,0 +1,50 @@
+.aside {
+  background-color: #6dd66d;
+  width: 100%;
+  padding: 32px;
+}
+.banner {
+  padding: 20px;
+}
+
+.banner > div {
+  text-align: center;
+}
+
+.banner > div h3 {
+  font-size: 34px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.banner > div span {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.estimate_title {
+  font-size: 32px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.estimate_q {
+  text-align: center;
+  font-weight: 100;
+  font-size: 24px;
+}
+
+.col3 {
+  width: 166.6px;
+  height: 50px;
+  text-align: center;
+  color: #b3b3b3;
+  border: 1px solid #b3b3b3;
+}
+
+#list {
+  padding: 30px;
+}
+/* 장판견적 */

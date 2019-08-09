@@ -1,0 +1,37 @@
+.footer {
+  padding: 40px 0;
+}
+
+.footer .nav_left {
+  float: left;
+  width: 50%;
+}
+
+.footer .nav_left ul {
+  font-size: 18px;
+}
+
+.footer .nav_left:first-child span {
+  font-weight: bold;
+}
+
+.footer .number {
+  color: #ff426e;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.footer .time {
+  color: #b3b3b3;
+}
+
+.footer .nav_right {
+  float: left;
+  width: 50%;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #b3b3b3;
+}

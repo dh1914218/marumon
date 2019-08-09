@@ -89,7 +89,6 @@
 }
 
 /* 자재보기 */
-
 .swiper-container2 {
   overflow: hidden;
 }
@@ -115,4 +114,15 @@
   height: 160px;
   display: inline-block !important;
   padding-bottom: 20px;
+}
+
+/* 마루몬소개 */
+.info {
+  height: 500px;
+  background-color: #999999;
+}
+
+.construction {
+  height: 500px;
+  background-color: #888888;
 }

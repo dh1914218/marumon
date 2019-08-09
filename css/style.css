@@ -6,6 +6,13 @@
 @import "main.css";
 @import "slick.css";
 @import "swiper.min.css";
+@import "footer.css";
+@import "media.css";
+@import "estimate.css";
+
+#wrap {
+  margin: 0 auto;
+}
 
 #header {
   width: 100%;
